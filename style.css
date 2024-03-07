@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(122, 115, 115);
+}
+*{
+    margin: 1px;
+    padding:1px;
+}
+.logo{
+    width: 90PX;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+;}
+.logo img{
+    width: 50px;
+    border: 3px burlywood;
+    border-color: beige;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    width: px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+
+}
+.nav-list{
+    align-items: center;
+    display: flex;
+    width: px;;
+    background-color: rgb(72, 70, 75);
+}
+.nav-list li {
+list-style: none;    
+padding: 10px 10px;
+
+}
+.nav-list li a{
+text-decoration: none;
+color: rgb(231, 215, 215);
+}
+
+.nav-list li a:hover{
+    color: black;
+}
+
+.rightNav{
+    background-color: rgb(78, 59, 59);
+    width: 30%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size:17px;
+    border: 2px solid rgb(156, 126, 69);
+    border-radius:8px;
+}
+
+.background{
+    background:rgba(0,0, 0,0.7) url('/cccc.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.box-main{
+    text-size-adjust:20px;
+    color: rgb(202, 202, 179);
+}
+
+.firstsection{
+    height: 50vh;
+    width: 100vh;
+    padding: 10px;
+    justify-content: center;
+}
+.text-big{
+    text-align:start;
+    text-shadow: 10px;
+    
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.secondhalf{
+    padding: 40px;
+    color: azure;
+    background-blend-mode:darken;
+}
+.button{
+    padding: 10px;
+    color: rgb(161, 52, 52);
+    border: 1px ;
+    border-radius: 5px;
+    
+    
+}
+.button:hover{
+    color: rgb(131, 25, 25);
+}
+.product{
+    padding: 50px;
+    border: 5px solid;
+    border-color: beige;
+    background:rgba(0,0, 0,0.7) url('/download.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.product image{
+    border: #dee9de;
+    border: 10px;
+}
+button {
+    background-color: #c4dbc4;
+    color: #204125;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #606c75;
+}
