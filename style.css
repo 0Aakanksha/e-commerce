@@ -31,7 +31,7 @@ body{
 }
 .nav-list li {
 list-style: none;    
-padding: 1rem 1rem;
+padding: 1px 1px;
 
 }
 .nav-list li a{
@@ -68,8 +68,8 @@ color: rgb(231, 215, 215);
 }
 
 .firstsection{
-    height: 80vh;
-    width: 100vh;
+    height: 50vh;
+    width: 90vh;
     padding: 10px;
     justify-content: center;
 }
@@ -88,7 +88,7 @@ color: rgb(231, 215, 215);
 .button{
     padding: 10px;
     color: rgb(161, 52, 52);
-    border: 1px ;
+    border: 9px ;
     border-radius: 5px;
     
     
