@@ -19,7 +19,6 @@ body{
 }
 .navbar{
     display: flex;
-    width: px;
     align-items: center;
     justify-content: center;
     position: sticky;
@@ -28,7 +27,6 @@ body{
 .nav-list{
     align-items: center;
     display: flex;
-    width: px;;
     background-color: rgb(72, 70, 75);
 }
 .nav-list li {
@@ -121,4 +119,9 @@ button {
 
 button:hover {
     background-color: #606c75;
+}
+@media screen and (max-width:700px) {
+    li a{
+        padding: 14px 10 px;
+    }
 }
