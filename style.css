@@ -2,18 +2,18 @@ body{
     background-color: rgb(122, 115, 115);
 }
 *{
-    margin: 1rem;
-    padding:1rem;
+    margin: 1px;
+    padding:1px;
 }
 .logo{
-    width: 90rem;
+    width: 90px;
     display: flex;
     align-items:center;
     justify-content: center;
 ;}
 .logo img{
     width: 50px;
-    border: 3em burlywood;
+    border: 3px burlywood;
     border-color: beige;
     border-radius: 50px;
 }
@@ -31,7 +31,7 @@ body{
 }
 .nav-list li {
 list-style: none;    
-padding: 10rem 10rem;
+padding: 1rem 1rem;
 
 }
 .nav-list li a{
@@ -45,13 +45,13 @@ color: rgb(231, 215, 215);
 
 .rightNav{
     background-color: rgb(78, 59, 59);
-    width: 30rm;
+    width: 30px;
     text-align: right;
 }
 #search{
-    padding: 5rem;
-    font-size:17rem;
-    border: 2rem solid rgb(156, 126, 69);
+    padding: 5px;
+    font-size:17px;
+    border: 2px solid rgb(156, 126, 69);
     border-radius:8px;
 }
 
@@ -63,22 +63,22 @@ color: rgb(231, 215, 215);
 }
 
 .box-main{
-    text-size-adjust:20rem;
+    text-size-adjust:20px;
     color: rgb(202, 202, 179);
 }
 
 .firstsection{
-    height: 50vh;
+    height: 80vh;
     width: 100vh;
     padding: 10px;
     justify-content: center;
 }
 .text-big{
     text-align:start;
-    text-shadow: 10rem;
+    text-shadow: 10px;
     
     font-family:'Times New Roman', Times, serif;
-    font-size: 30rem;
+    font-size: 40px;
 }
 .secondhalf{
     padding: 40px;
@@ -97,7 +97,7 @@ color: rgb(231, 215, 215);
     color: rgb(131, 25, 25);
 }
 .product{
-    padding: 50rem;
+    padding: 50px;
     border: 5px solid;
     border-color: beige;
     background:rgba(0,0, 0,0.7) url('/download.jpeg');
@@ -106,9 +106,9 @@ color: rgb(231, 215, 215);
 }
 .product image{
     border: #dee9de;
-    height:60rem;
-    width:60rem;
-    border: 10rem;
+    height:60px;
+    width:60px;
+    border: 10px;
 }
 button {
     background-color: #c4dbc4;
@@ -124,6 +124,6 @@ button:hover {
 }
 @media screen and (max-width:700px) {
     li a{
-        padding: 14rem 10 rem;
+        padding: 64px 30 px;
     }
 }
